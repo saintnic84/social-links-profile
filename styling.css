@@ -1,28 +1,42 @@
 body {
     background-color: black;
+    font-family: 'inter';
 }
 
 img {
-    width: 50px;
-    height: 50px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
+}
+
+p {
+    font-size: 14px;
 }
 
 .avid {
     color: #9ACD32;
 }
 
+.boat {
+    color: white;
+}
+
 .card {
-    background-color: #393e46;
+    background-color: #28282B;
     text-align: center;
-    padding: 50px 0 20px;
+    padding: 50px 0 50px;
     width: 384px;
     margin: 150px auto;
+    border-radius: 10%;
 }
 
 .click {
-    background-color: #2a2b2d;
+    background-color: hsl(0, 0%, 20%);
     color: white;
+    margin-top: 10px;
+    width: 20em;
+    height: 3em;
+    border-radius: 10px;
 }
 
 .click:hover {
@@ -37,4 +51,10 @@ img {
     width: 100%;
     padding: 10px;
     color: white;
+}
+
+@media screen {
+    body {
+        width: 375px;
+    }
 }
