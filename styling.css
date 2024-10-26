@@ -1,5 +1,33 @@
 body {
+    background-color: black;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.avid {
+    color: #9ACD32;
+}
+
+.card {
     background-color: #393e46;
+    text-align: center;
+    padding: 50px 0 20px;
+    width: 384px;
+    margin: 150px auto;
+}
+
+.click {
+    background-color: #2a2b2d;
+    color: white;
+}
+
+.click:hover {
+    background-color: #9ACD32;
+    cursor: pointer;
 }
 
 .attribution {
