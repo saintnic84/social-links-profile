@@ -10,11 +10,16 @@ img {
 }
 
 p {
-    font-size: 14px;
+    font-size: 12px;
+}
+
+.con {
+    line-height: 20%;
 }
 
 .avid {
     color: #9ACD32;
+    line-height: 22px;
 }
 
 .boat {
@@ -24,10 +29,10 @@ p {
 .card {
     background-color: #28282B;
     text-align: center;
-    padding: 50px 0 50px;
+    padding: 30px 0 50px;
     width: 384px;
     margin: 150px auto;
-    border-radius: 10%;
+    border-radius: 5%;
 }
 
 .click {
@@ -53,8 +58,5 @@ p {
     color: white;
 }
 
-@media screen {
-    body {
-        width: 375px;
-    }
-}
+
+@media (width:375px) {}
